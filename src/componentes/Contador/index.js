@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './contador.css'
+import { Button } from 'reactstrap';
 
 class Contador extends Component {
 
@@ -27,8 +28,8 @@ class Contador extends Component {
         return (
           <div>
             <h1 className="conteiner-titulo">{ this.state.numero }</h1>
-            <button className="contador-aumentar" type="button" onClick={this.aumentar}>Aumentar</button>
-            <button className="contador-diminuir" type="button" onClick={this.diminuir}>Diminuir</button>
+            <Button className="mr-2" color="success" outline onClick={this.aumentar}> Aumentar </Button>
+            <Button color="danger" outline onClick={this.diminuir}> Diminuir </Button>
           </div>
         )
       }
