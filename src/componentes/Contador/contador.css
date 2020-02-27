@@ -1,0 +1,16 @@
+.conteiner-titulo{
+    text-align: center;
+}
+
+.contador-aumentar{
+    border: none;
+    background-color: rgb(64, 211, 51);
+    padding: 15px;
+    margin-right: 15px;
+}
+
+.contador-diminuir{
+    border: none;
+    background-color: rgb(211, 51, 51);
+    padding: 15px;
+}
